@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout>Start Layout</layout>
+        <layout>painting_mape</layout>
+        <layout>painting_d01</layout>
+        <layout active="1">painting_d02</layout>
+        <layout>painting_d03</layout>
+        <layout>painting_d04</layout>
+        <layout>painting_d05</layout>
+        <layout>paiting_marina</layout>
+        <layout>Help</layout>
+        <layout>Painting Chooser</layout>
+        <event-sheet>Paintings Logic</event-sheet>
+        <event-sheet>Help</event-sheet>
+        <event-sheet>Start</event-sheet>
+        <event-sheet>Chooser</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="0" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+</c2uistate>

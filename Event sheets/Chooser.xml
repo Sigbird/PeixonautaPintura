@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Chooser</name>
+    <events>
+        <event-block sid="8102810612903035">
+            <conditions>
+                <condition id="17" name="On tap object" sid="2641068369437685" type="Touch">
+                    <param id="0" name="Object">Sprite12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5432762976301484" type="System">
+                    <param id="0" name="Layout">painting_d01</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5274745947242906">
+            <conditions>
+                <condition id="17" name="On tap object" sid="8820927966759162" type="Touch">
+                    <param id="0" name="Object">d02</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8209740321290251" type="System">
+                    <param id="0" name="Layout">painting_d02</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4167767401757735">
+            <conditions>
+                <condition id="17" name="On tap object" sid="3112370118951868" type="Touch">
+                    <param id="0" name="Object">d03</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="372978745861679" type="System">
+                    <param id="0" name="Layout">painting_d03</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8070640323415461">
+            <conditions>
+                <condition id="17" name="On tap object" sid="3068875385444772" type="Touch">
+                    <param id="0" name="Object">d04</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="7566651585169748" type="System">
+                    <param id="0" name="Layout">painting_d04</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="336858584323854">
+            <conditions>
+                <condition id="17" name="On tap object" sid="427679776754287" type="Touch">
+                    <param id="0" name="Object">d05</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4801671022794312" type="System">
+                    <param id="0" name="Layout">painting_d05</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1984634413394576">
+            <conditions>
+                <condition id="17" name="On tap object" sid="566650372068242" type="Touch">
+                    <param id="0" name="Object">d06_marina</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6779292827668158" type="System">
+                    <param id="0" name="Layout">paiting_marina</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7424508430813982">
+            <conditions>
+                <condition id="17" name="On tap object" sid="7851081425061292" type="Touch">
+                    <param id="0" name="Object">d07_peixo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3840516832705365" type="System">
+                    <param id="0" name="Layout">painting_mape</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9485605282421768">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4287059221824661" type="Touch">
+                    <param id="0" name="Object">BackBtn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6488124438044395" type="System">
+                    <param id="0" name="Layout">Start Layout</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

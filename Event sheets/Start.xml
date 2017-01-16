@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Start</name>
+    <events>
+        <event-block sid="6204551933511237">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8801207967440883" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="9764319718086384" type="Audio">
+                    <param id="0" name="Audio file">OP_Edit</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9767316917503005">
+            <conditions>
+                <condition id="17" name="On tap object" sid="3371737162386943" type="Touch">
+                    <param id="0" name="Object">PlayButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2773102049254358" type="System">
+                    <param id="0" name="Layout">Painting Chooser</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4736372498048334">
+            <conditions>
+                <condition id="17" name="On tap object" sid="6549808249760699" type="Touch">
+                    <param id="0" name="Object">HelpButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5512194410376528" type="System">
+                    <param id="0" name="Layout">Help</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
